@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	position: relative;
+	height: 300px;
+	width: 400px;
+	background: #293462;
+}
+
+.a {
+	height: 100px;
+	width: 200px;
+	background: #fe5f55;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	border-radius: 20px;
+	box-shadow: 0 20px #a64942;
+}
+
+.b {
+	height: 40px;
+	width: 140px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30px);
+	background: #a64942;
+	border-radius: 20px;
+}
